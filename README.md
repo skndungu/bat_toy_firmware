@@ -1,6 +1,7 @@
-# bat_toy_firmware
+# Toy Programming Instructions
+<img src="https://user-images.githubusercontent.com/85989401/164313673-c9fc2fa7-dc00-43d8-b73d-02b5f9d99b8e.png" height ="400">
 
-The repo contains all the firmware codes for the project and instructions on how to load them to the hardware
+### The repo contains all the firmware codes for the project and instructions on how to load them to the hardware
 
 ## Requirements
 1) Set up the IDE, for this application you will need to download the Arduino ide [here](https://www.arduino.cc/en/software) if you don't have it already installed for your distributions
@@ -35,17 +36,12 @@ You can also explore more from the following tutorial :link:[How to Use FTDI Pro
 To see the serial data as sent or received from either of the boards we can use the FTDI programmer or any USB to TTL converter so that you can have access to a serial port. Check out the headers on the board for uart communications 
 
 ## Operation of bat_toy
-
-![Bat Toy_5](https://user-images.githubusercontent.com/85989401/164313673-c9fc2fa7-dc00-43d8-b73d-02b5f9d99b8e.png)
-
-
-![Bat Toy_1](https://user-images.githubusercontent.com/85989401/164313743-d3925834-eb23-4f5f-8454-727115c4af4c.png)
-
 1. Load the battery socket with cr2032 batteries
-2. Make sure the toy is on a flat surface and Let it initalize for about 5 seconds. THis enables calibration of the toy for proper measurements
-3. Now the toy is ready for use. 
-4. Select a level by double pressing the reset button
-5. flip the toy around and play to complete the different levels
+2. <img src="https://user-images.githubusercontent.com/85989401/164313743-d3925834-eb23-4f5f-8454-727115c4af4c.png" height="300">
+3. Make sure the toy is on a flat surface and Let it initalize for about 5 seconds. THis enables calibration of the toy for proper measurements
+4. Now the toy is ready for use. 
+5. Select a level by double pressing the reset button
+6. flip the toy around and play to complete the different levels
 
 The reset button is used to reset the values after every round.
 - Press once to reset the number of spins and flips to zero
@@ -53,4 +49,4 @@ The reset button is used to reset the values after every round.
 - Double press to select level
 
 On/Off button is used to turn on and off the toy.
-### HAVE FUN
+### HAVE FUN :) 
